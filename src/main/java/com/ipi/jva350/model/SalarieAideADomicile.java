@@ -72,7 +72,7 @@ public class SalarieAideADomicile {
      * @return
      */
     public boolean aLegalementDroitADesCongesPayes() {
-        return this.getJoursTravaillesAnneeNMoins1() > 10;
+        return this.getJoursTravaillesAnneeNMoins1() >= 10;
     }
 
     /**
@@ -232,4 +232,5 @@ public class SalarieAideADomicile {
     public int hashCode() {
         return Objects.hash(id, nom);
     }
+
 }
