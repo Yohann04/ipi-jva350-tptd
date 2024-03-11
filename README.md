@@ -181,4 +181,8 @@ fichier ne dépasse pas 1 MO.
 - BONUS : Créez une petite documentation statique en utilisant MkDocs.
 - Rédigez **ci-dessous** une courte analyse du rapport produit par Sonar (métriques, évolution, état général...) :
 
-Le rapport Sonar final indique...
+Le rapport Sonar final indique un score de fiabilité de C, relevant un bug de type majeur sur le répertoire : src/main/java/com/ipi/jva350/service/SalarieAideADomicileService.java. La maintenabilité du code est quant à elle noté A, pour 46 "code smells" relevé. Concernant les scores de sécurité sur la vulnérabilité et les points d'accès de sécurité, la note attribué est également de A. Enfin, le score de duplication des lignes est de 3.6%, le répertoire comprenant le plus de duplication de code étant : src/main/java/com/ipi/jva350/model/Entreprise.java.
+
+Ce TP à été entièrement fait avec l'aide de Lucas Vincent.
+
+
